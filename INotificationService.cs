@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CustomerInfo
+namespace Notification
 {
-    public interface IVerifier
+    public interface INotificationService
     {
-        bool IsValid(Customer customer);
+        void Send(NotificationMessage notification);
     }
 }

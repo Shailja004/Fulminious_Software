@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CustomerInfo
+namespace Notification
 {
-    public interface ISave_information
+    public class NotificationMessage
     {
-        void SaveCustomers(List<Customer> customers);
+        public string Message { get; set; }
     }
 }
